@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/15920292a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/AbhiLogo-v3-01-1.png" alt="" class="logo">
+                <ul id="side">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="end()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="start()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,I'm <span>Abhishek</span><br> Soni From Jabalpur</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------About Section----------- -->
+
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about4.png" alt="" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1><br>
+                    <p>Hi There! I'm <span>Abhishek soni</span>. A<span> Full Stack Web Developer</span> having specialization in
+                         <span>beck end & front end development</span>. I have 1+ years of experience in Web Development
+                         having strong <span>Python</span> Skills. I have Backend Skills in Python Django And Database MYSQL.
+                         I also have Frontend Skills in Javascript and React JS Web Components & HTML5, CSS,Bootstrap & Foundation. 
+                         Seeking a Challenging opportunity to Utilize these skills and grow further in the field of Web Development.</p>
+
+ 
+                     <div class="tab-title">
+                        <p class="tab-links activ-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Educations</p>
+                        <!-- <p class="tab-links" onclick="opentab('Strengths')">Strengths<p> -->
+                        
+
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End</span><br>HTML  CSS, BOOTSTRAP,  JAVASCRIPT, REACT-JS</li>
+                            <li><span>Back-End</span><br>Python, Django</li>
+                            <li><span>Database</span><br>SQLite, MySQL, MongoDB</li>
+                            <li><span>Another Skills</span><br>Critical Thinking, A Good Communication Skills, Teamwork, Creativity,<br> Photo-Editing, Video-Editing.</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span >Web Developer & Junior Python Developer</span><br><br><spam class="hi"><i class="fa-solid fa-calendar-days"></i>  ROBOTRONiX INDIA</spam><br>2023-24<br><br>
+                            <p>Worked on HTML, CSS, Bootstrap, Javascript and Python Django development projects, with a focus on data fethcing and cleansing.</p><br>
+                            <p>Worked on web development projects using HTML,CSS, Bootstrap and Javascript.Gained React JS skills on the Job.</p></li>
+
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Internship at Robotronix INDIA pvt. LMT, Indore</li>
+                            <li><span>2021-2023</span><br>Comlete- Master's Degree IN GGITS College Jabalpur</li>
+                            <li><span>2019-2021</span><br>Complete - bachelor's Degree IN MODEL SCIENCE COllege Jabalpur</li>
+
+                        </ul>
+                     </div>
+                     <!-- <div class="tab-contents" id="Strengths">
+                        <ul>
+                            <li><span>Critical Thinking</span></li>
+                            <li><span>A good Communication</span></li>
+                            <li><span>Teamwork</span></li>
+                        </ul>
+
+                     </div> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ------------------------Services--------------------------- -->
+
+    <div id="Services">
+        
+        <div class="container">
+
+           <h1 class="sub-title">My Services</h1>
+           <div class="services-list">
+             
+             <div>
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>Web Design</h2>
+                <p>i'm A abhishek- Based Web Designer & Python Developer who Works With Startups & Corporations On web Design, Branding, And Prresentations</p>
+                <a href="#">Learn More</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>Web Development</h2>
+                <p>web development services like - <br>Web Design & Development, <br>e-commerce development, open source development, Payment Get Way, Custome Development ETC</p>
+                <a href="#">Learn More</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>API Integration</h2>
+                <p>I perform all the CRUD Oprations</p>
+                <a href="#">Learn More</a>
+            </div>
+
+           </div>
+       
+        </div>
+
+    </div>
+
+    <!-- -------------------------portfolio----------------- -->
+
+    <div id="portfolio">
+       
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/port2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Wedding Planner</h3>
+                        <p> i Created wedding planning Web application and provide all facilities in customer Like- <br> Services- Wedding Decoration <br> Stage Decoration <br> Haldi&Mehandi Decoration ETC.<br>All provides Best Packages</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web-cms-student-portal-main.jpg" alt="">
+                    <div class="layer">
+                        <h3>Students Study Portal Dashboard</h3>
+                        <p>any Student are visit this website and First of all Create an your Account then Login.<br><br> after login we are create Notes, Homework etc. & raed this many books and comics online or Watch Video online, use wikipedia website and find it, Students can use the Dictionary features in this website</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot_2024-01-11-10-57-53-53_e4424258c8b8649f6e67d283a50a2cbc.jpg" alt="">
+                    <div class="layer">
+                        <h3>HI-TECH शिक्षा</h3>
+                        <p>Hi-Tech-SHIKSHA is established with the motive of providing Advance Tech Learning Solutions and Consulting to the Futuristic Meta Industry with High-tech training programs in AR / VR/ XR / Robotics / AI and ML with advance industry gadgets. Our aim is to prepare SKILLEDdevelopers and provide more career opportunities to our students rather than traditional technologies.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+
+    </div>
+
+    <!-- --------------------------Contact------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>abhisheksoni@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>9131406356</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Abhishek Soni.pdf" download class="btn btn2">download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" id="" placeholder="Your Email" required>
+                        <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copuright">
+            <p>Copyright @abhishek.<i class="fa-regular fa-heart"></i> Made with by Easy </p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("activ-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("activ-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        }
+    </script>
+
+    <script>
+
+        var side = document.getElementById("side");
+
+        function start(){
+            side.style.right = "0";
+        }
+        function end(){
+            side.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
